@@ -628,11 +628,6 @@ button { cursor: pointer; }
   color: var(--title-color);
 }
 
-.footer__column .logo {
-
-}
-
-
 .first-column {
   display: flex;
   flex-direction: column;
@@ -741,7 +736,16 @@ button { cursor: pointer; }
 
   .footer__column {
     flex: 1;
-    align-items: center;
+    align-content: center;
+  }
+
+  .first-column{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
   }
 
   .social__icon i {
