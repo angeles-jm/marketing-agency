@@ -382,6 +382,9 @@ button { cursor: pointer; }
 
 /* Projects */
 
+.project{
+  background-color: var(--light-gray);
+}
 .projectcard__container{
   position: relative;
   border-radius: 5px;
@@ -516,7 +519,6 @@ button { cursor: pointer; }
 
 .testimonial{
   position: relative;
-  background-color: var(--light-gray);
   width: 100%;
   overflow: hidden;
   padding-top: 1rem;
